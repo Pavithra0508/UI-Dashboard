@@ -75,4 +75,4 @@ st.plotly_chart(pie_chart)
 
 image = Image.open('images/firmbee-com-jrh5lAq-mIs-unsplash.jpg')
 st.image(image,
-         use_column_width=True)
+         use_container_width=True)
