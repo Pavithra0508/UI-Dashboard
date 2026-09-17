@@ -61,7 +61,7 @@ st.plotly_chart(bar_chart)
 col1, col2 = st.columns(2)
 image = Image.open('images/firmbee-com-jrh5lAq-mIs-unsplash.jpg')
 col1.image(image,
-         use_column_width=True)
+         use_container_width=True)
 col2.dataframe(df[mask])
 
 #plot pie chart
